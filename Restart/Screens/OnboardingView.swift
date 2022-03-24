@@ -12,7 +12,7 @@ struct OnboardingView: View {
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
     var body: some View {
         VStack(spacing: 20) {
-            Text("onBoardingScreen")
+            Text("onBoarding")
                 .font(.largeTitle)
             
             
