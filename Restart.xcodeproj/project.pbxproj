@@ -11,6 +11,8 @@
 		94A837D027ED005700753F23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A837CF27ED005700753F23 /* ContentView.swift */; };
 		94A837D227ED005B00753F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A837D127ED005B00753F23 /* Assets.xcassets */; };
 		94A837D527ED005B00753F23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A837D427ED005B00753F23 /* Preview Assets.xcassets */; };
+		94A837DC27ED01A200753F23 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 94A837DB27ED01A200753F23 /* success.m4a */; };
+		94A837DE27ED01B700753F23 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94A837DD27ED01B700753F23 /* chimeup.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		94A837CF27ED005700753F23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94A837D127ED005B00753F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A837D427ED005B00753F23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94A837DB27ED01A200753F23 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		94A837DD27ED01B700753F23 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		94A837CC27ED005700753F23 /* Restart */ = {
 			isa = PBXGroup;
 			children = (
+				94A837DF27ED01CB00753F23 /* Sounds */,
 				94A837CD27ED005700753F23 /* RestartApp.swift */,
 				94A837CF27ED005700753F23 /* ContentView.swift */,
 				94A837D127ED005B00753F23 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				94A837D427ED005B00753F23 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94A837DF27ED01CB00753F23 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				94A837DD27ED01B700753F23 /* chimeup.mp3 */,
+				94A837DB27ED01A200753F23 /* success.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A837DE27ED01B700753F23 /* chimeup.mp3 in Resources */,
 				94A837D527ED005B00753F23 /* Preview Assets.xcassets in Resources */,
+				94A837DC27ED01A200753F23 /* success.m4a in Resources */,
 				94A837D227ED005B00753F23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
