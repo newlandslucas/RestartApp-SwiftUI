@@ -26,7 +26,7 @@ struct HomeView: View {
             
             // Mark - Center
             
-            Text("The time that leads to mastery is dependent on the intesity of your focus")
+            Text("The time that leads to mastery is dependent on the intesity of your focus.")
                 .font(.title3)
                 .fontWeight(.light)
                 .foregroundColor(.secondary)
