@@ -107,13 +107,15 @@ struct OnboardingView: View {
                                     }
                                 }
                                 .onEnded { _ in
-                                    if buttonOffSet > buttonWidth / 2 {
-                                        buttonOffSet = buttonWidth - 80
-                                        isOnboardingViewActive = false
-                                    } else {
+                                    withAnimation(Animation.easeOut(duration: 0.4)) {
+                                        if buttonOffSet > buttonWidth / 2 {
+                                            buttonOffSet = buttonWidth - 80
+                                            isOnboardingViewActive = false
+                                        } else {
+                                            buttonOffSet = 0
+                                        }
                                         buttonOffSet = 0
                                     }
-                                    buttonOffSet = 0
                                     
                                 }
                         )
